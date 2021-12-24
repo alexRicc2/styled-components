@@ -7,7 +7,7 @@ import dinheiro from "../../assets/images/dinheiro.svg";
 
 import {
   Icone,
-  Box,
+  BoxConta,
   Botao,
   Saldo,
   Detalhe,
@@ -26,7 +26,7 @@ const Conta = () => {
   };
 
   return (
-    <Box>
+    <BoxConta>
       <h2>Conta</h2>
       <div style={{ fontSize: "26px", padding: "20px 0" }}>
         Saldo disponível{" "}
@@ -46,7 +46,7 @@ const Conta = () => {
           alt="Privacidade do Saldo"
         />
       </Botao>
-    </Box>
+    </BoxConta>
   );
 };
 

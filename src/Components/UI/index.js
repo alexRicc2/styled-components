@@ -1,5 +1,5 @@
 import styled from "styled-components";
-
+import { corPrimaria } from "./variaveis";
 export const Icone = styled.img`
   height: 25px;
   width: 25px;
@@ -24,12 +24,15 @@ export const Box = styled.div`
     margin: 5px;
   }
 `;
+export const  BoxConta = styled(Box)`
+  max-height: 440px;
+`
 
 export const Botao = styled.button`
   margin: 15px auto 0px auto;
   display: block;
   border-radius: 20px;
-  background-color: #41d3be;
+  background-color: ${corPrimaria};
   border: none;
   color: white;
   font-weight: 600;
@@ -39,7 +42,7 @@ export const Botao = styled.button`
 `;
 
 export const Detalhe = styled.span`
-  color: #41d3be;
+  color: ${corPrimaria};
   font-size: 24px;
 `;
 

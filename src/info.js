@@ -36,5 +36,19 @@ export const extratoLista = {
       date: "5 JUN",
       from: "AliExpress",
     },
+    {
+      id: "926544",
+      type: "Outros",
+      value: "150,00",
+      date: "5 JUN",
+      from: "AliExpress",
+    },
+    {
+      id: "926544",
+      type: "Outros",
+      value: "150,00",
+      date: "5 JUN",
+      from: "AliExpress",
+    },
   ],
 };

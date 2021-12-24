@@ -9,6 +9,10 @@ const Container = styled.div`
   background-color: ${({ theme }) => theme.body};
   min-height: 90vh;
   padding: 10px 15vw;
+
+  @media (max-width: 800px){
+    padding: 10px 6vw;
+  }
 `;
 
 const Conteudo = styled.section`

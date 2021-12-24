@@ -28,14 +28,16 @@ const StyledCabecalho = styled.nav`
   align-items: center;
 
   
-  @media (max-width: 800px) {
+  @media (max-width: 700px) {
     flex-direction: column;
     justify-content: space-around;
     height: 200px;
+    align-items: unset;
+    padding: 0 6vw;
   }
 `;
 const MiniContainer = styled.div`
-  @media (max-width: 800px) {
+  @media (max-width: 700px) {
     display: flex;
     flex-direction: column;
   }
@@ -52,7 +54,7 @@ const Input = styled.input`
   margin: 0 10px;
   outline: none;
   border: none;
-  @media (max-width: 800px){
+  @media (max-width: 700px){
     margin: 2px 0px;
   }
 `
